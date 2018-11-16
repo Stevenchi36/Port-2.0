@@ -80,3 +80,25 @@ header::after {
   align-items: center;
   font-weight: bold;
 }
+header .title-container {
+  position: absolute;
+  top: 35%;
+  margin-left: 150px;
+}
+.title-container .hero-title {
+  font-weight: bold;
+  font-size: 40px;
+}
+.title-container .hero-info {
+  margin-top: 40px;
+  font-weight: 100;
+  line-height: 130%;
+  color: #454445
+}
+.btn {
+  display: inline-block;
+  padding: 15px 20px;
+  background-color: #6B00F4;
+  color: #f5f2dc;
+  margin-top: 40px;
+}
