@@ -72,3 +72,19 @@ header .title-container {
   margin-top: 40px;
   text-decoration: none;
 }
+
+/* Projects Section */
+.projects {
+  padding: 40px 20px;
+}
+.project-image {
+  display: block;
+  margin: 0 auto;
+}
+.project-info-container {
+  text-align: center;
+}
+.project-info-container .title {
+  font-size: 30px;
+  font-weight: bold;
+}
