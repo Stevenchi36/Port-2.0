@@ -83,8 +83,28 @@ header .title-container {
 }
 .project-info-container {
   text-align: center;
+  margin-top: 20px;
+  max-width: 600px;
+  margin: 20px auto 0px auto;
 }
 .project-info-container .title {
   font-size: 30px;
   font-weight: bold;
 }
+.project-info-container .info {
+  margin-top: 20px;
+}
+.projects .project-divider {
+  height: 1px;
+  width: 80%;
+  margin: 40px auto;
+  background-color: #454445;
+  box-shadow: 0px 1px 2px #454445;
+}
+
+
+
+/* FOR TESTING PURPOSES */
+/* header {
+  display: none;
+} */
