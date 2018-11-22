@@ -93,6 +93,7 @@ header .title-container {
 }
 .project-info-container .info {
   margin-top: 20px;
+  line-height: 130%;
 }
 .projects .project-divider {
   height: 1px;
