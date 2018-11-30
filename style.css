@@ -54,15 +54,19 @@ header .title-container {
   top: 35%;
 }
 .title-container .hero-title {
+  opacity: 0;
   font-weight: bold;
   font-size: 40px;
   margin-bottom: 40px;
+  animation: fade-in-up 1s forwards;
 }
 .title-container .hero-info {
+  opacity: 0;
   font-weight: 100;
   line-height: 130%;
   color: #454445;
   margin-bottom: 10px;
+  animation: 1s fade-in .75s forwards;
 }
 .btn {
   display: inline-block;
@@ -71,6 +75,30 @@ header .title-container {
   color: #f5f2dc;
   margin-top: 40px;
   text-decoration: none;
+}
+.btn-contact {
+  opacity: 0;
+  animation: 1s fade-in 1.25s forwards;
+}
+
+/* Transition for Hero Title */
+@keyframes fade-in-up{
+  from{
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes fade-in{
+  from{
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Projects Section */
@@ -107,7 +135,7 @@ header .title-container {
 }
 .contact img{
   display: block;
-  margin: 20px auto 0px auto;
+  margin: 0px auto 0px auto;
   border-radius: 50%;
 }
 .contact .social-icons {
@@ -144,7 +172,7 @@ header .title-container {
   resize: none;
 }
 .purple {
-  background-color: rgb(107, 0, 244)
+  background-color: rgb(107, 0, 244);
   background-image: linear-gradient(to right, rgba(41,137,216,0) 0%,rgba(107,0,244,1) 50%,rgba(125,185,232,0) 100%);
 }
 
@@ -174,6 +202,14 @@ header .title-container {
 @media screen and (min-width: 1100px) {
   header {
     padding: 20px 150px;
+  }
+}
+@media screen and (min-width: 1350px) {
+  header {
+    padding: 20px 175px;
+  }
+  .nav-links {
+    width: 325px;
   }
 }
 /* Projects */
