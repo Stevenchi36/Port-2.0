@@ -24,6 +24,11 @@ header::after {
   position: absolute;
   z-index: -1;
 }
+.header-logo {
+  width: 75px;
+  height: 75px;
+  fill: #6B00F4;
+}
 .navigation-top {
   display: flex;
   justify-content: center;
