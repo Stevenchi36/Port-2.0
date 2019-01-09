@@ -10,7 +10,7 @@
   <title>Steven Childrey | Portfolio</title>
 </head>
 <body>
-  <header> <!-- HERO-->
+  <header id="home"> <!-- HERO-->
     <nav class="navigation-top">
       <div class="brand-container">
         <img src="https://via.placeholder.com/75/6B00F4/fff" alt="Steven's logo" srcset="">
@@ -20,9 +20,9 @@
         </div>
       </div>
       <ul class="nav-links">
-        <li class="nav-link"><a href="" class="nav-anchor">HOME</a></li>
-        <li class="nav-link"><a href="" class="nav-anchor">PROJECTS</a></li>
-        <li class="nav-link"><a href="" class="nav-anchor">CONTACT</a></li>
+        <li class="nav-link"><a href="#home" class="nav-anchor">HOME</a></li>
+        <li class="nav-link"><a href="#projects" class="nav-anchor">PROJECTS</a></li>
+        <li class="nav-link"><a href="#contact" class="nav-anchor">CONTACT</a></li>
       </ul>
     </nav>
     <div class="title-container">
@@ -33,7 +33,7 @@
       <a href="#" class="btn btn-contact">Contact Me</a>
     </div>
   </header>
-  <section class="projects">
+  <section class="projects" id="projects">
     <div class="project-container">
       <div class="image-container">
         <a href="https://github.com/Stevenchi36/lift-stat" target="_blank"><img src="assets/lifting-project.jpg" alt="Lifting project" class="project-image"></a>
@@ -67,9 +67,25 @@
         <p class="info">These are two images I made using Sass and Pug. Here is the link to <a href="https://codepen.io/Stevenchi36/pen/dzPbzZ">Mario</a> and the <a href="https://codepen.io/Stevenchi36/pen/przNzv">Night King</a>!<br />Note: These were both only tested in an updated version of Google Chrome.</p>
       </div>
     </div>
+    <div class="project-divider"></div>
+    <div class="project-container">
+      <div class="image-container">
+        <img src="/assets/other.jpg" alt="CSS Art" class="project-image">
+      </div>
+      <div class="project-info-container">
+        <h2 class="title">Other</h2>
+        <p class="info sub-title">Apart from some of the project listed above, I have also:</p>
+        <ul>
+          <li>Completed <a href="https://www.udemy.com/vuejs-2-the-complete-guide/learn/v4/overview">Vue JS 2 - The Complete Guide</a> on Udemy</li>
+          <li>Made a <a href="https://github.com/Stevenchi36/Raddit">Twitter clone using Sail.js and MySQL</a></li>
+          <li>Created a <a href="https://chrome.google.com/webstore/detail/simple-weight-converter-p/lihkjpmkolenlpmecejhbkdmcfhbaogf">simple Chrome Extension</a> that has over 250 users</li>
+          <li>Used Python and a Raspberry Pi to turn text into <a href="https://github.com/Stevenchi36/LED-Morse-Code-for-Raspberry-Pi">morse code with an LED light</a></li>
+        </ul>
+      </div>
+    </div>
   </section>
-  <section class="contact">
-    <img src="https://via.placeholder.com/200x200/6B00F4/7B00F4" alt="Steven">
+  <section class="contact" id="contact">
+    <img src="assets/portrait.jpg" alt="Steven" class="portrait">
     <div class="social-icons">
       <a href="https://github.com/Stevenchi36" target="_blank">
         <svg viewbox="0 0 512 512">
