@@ -189,6 +189,19 @@ header .title-container {
 .projects .sub-title {
   font-size: 18px;
 }
+.projects .technologies {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+.projects .tech {
+  height: 75px;
+  width: 75px;
+  fill: #6B00F4;
+  margin: 0 10px 0 10px;
+}
 .projects ul {
   margin-top: 10px;
 }
