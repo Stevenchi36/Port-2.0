@@ -233,7 +233,7 @@ header .title-container {
 }
 .contact .social-icons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-top: 80px;
 }
 .contact .social-icons * {
