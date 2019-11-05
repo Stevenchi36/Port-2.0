@@ -333,6 +333,10 @@ header .title-container {
   }
 }
 
+.tech svg path {
+  fill: #6b00f4;
+}
+
 /* FOR TESTING PURPOSES */
 /* header, .projects {
   display: none;
